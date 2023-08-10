@@ -1,7 +1,8 @@
 from enum import Enum
-from .google_search import searchByGoogle
+from .google_search import search_by_google
 
-class engine(Enum):
+
+class Engine(Enum):
     GOOGLE = 1
     BING = 2
     BAIDU = 3
